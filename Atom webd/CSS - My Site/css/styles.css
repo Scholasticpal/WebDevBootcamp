@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  /* in font size, 100% is 16px. So, for 90px, 90/16 *100 = 562.5%
+                        also, 16px = 100% = 1em. px do not change size, if overall font
+                        size is changed, but % and em does change accordingly.
+
+                        also, % and em are inherited from its parent, so if body had 2em size and h1 had 5em,
+                        then h1's total size will be 7em. thus rem is used to avoid this.*/
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #bfc9c9;
+  border-width: 5px;
+  width: 5%;
+  margin: 30px auto 30px;
+}
+
+.top_container {
+  background-color: #ECFCFF;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top_cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom_cloud {
+  position: absolute;
+  left: 320px;
+  top: 450px;
+}
+
+.my-img {
+  margin: 40px auto 40px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.profile-desc {
+  color: #40514E;
+}
+
+.skillimg {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-right: 30px;
+}
+
+.interestsimg {
+  height: 100px;
+  width: 100px;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  line-height: 3;
+  padding: 20px;
+}
+
+.skill-row {
+  width: 40%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me{
+  margin-bottom: 30px;
+  line-height: 2;
+}
+
+.contact-me-desc{
+  margin-bottom: 40  px;
+}
+
+.btn {
+  line-height: 2;
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.footname{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px;
+}
+
+.footer-link{
+  color: #0f888c;
+  padding: 20px;
+  font-family: "Montserrat", serif;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color: #EAF6F6;
+}

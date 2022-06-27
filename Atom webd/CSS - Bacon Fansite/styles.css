@@ -1,0 +1,22 @@
+h1{
+  color : red;
+}
+
+ img:hover{
+  background-color: gold;
+}/* hover is a pseudo class */
+
+.bacon{
+  background-color: red;
+}
+
+.pancakes{
+  background-color: green;
+}
+.round{
+  border-radius: 70%;
+}
+
+#heading{
+  color: orange;
+}
